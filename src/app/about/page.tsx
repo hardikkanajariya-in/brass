@@ -50,7 +50,7 @@ export default async function AboutPage() {
 
       {/* Company Overview */}
       <Section>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12 items-center">
           <div>
             <SectionHeading title={t("overview.title")} />
             <p className="text-neutral-600 leading-relaxed mb-4">
@@ -117,14 +117,13 @@ export default async function AboutPage() {
 
       {/* Stats */}
       <Section className="bg-brand-secondary">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 gap-4 sm:gap-8 md:grid-cols-4">
           {stats.map((stat) => (
             <StatCounter
               key={stat.label}
               value={stat.value}
               suffix={stat.suffix}
               label={stat.label}
-              className="text-white"
             />
           ))}
         </div>

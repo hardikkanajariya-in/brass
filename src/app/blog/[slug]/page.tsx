@@ -75,7 +75,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           {/* Header */}
           <header className="mb-8">
             <Badge variant="primary" className="mb-4">{post.category}</Badge>
-            <h1 className="text-3xl md:text-4xl font-bold text-brand-secondary mb-4">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-secondary mb-4">
               {post.title}
             </h1>
             <div className="flex flex-wrap items-center gap-4 text-sm text-neutral-500">

@@ -66,7 +66,7 @@ export default async function ContactPage() {
       <Breadcrumb items={breadcrumbItems} />
 
       <Section>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-12">
           {/* Contact Info */}
           <div>
             <h2 className="text-xl font-semibold text-brand-secondary mb-2">

@@ -150,7 +150,7 @@ function MobileNav({ items, isOpen, onClose }: { items: NavigationItem[]; isOpen
       />
       <div
         className={cn(
-          'fixed inset-y-0 right-0 z-50 w-[300px] bg-white shadow-2xl transition-transform duration-300 lg:hidden overflow-y-auto',
+          'fixed inset-y-0 right-0 z-50 w-[280px] sm:w-[320px] bg-white shadow-2xl transition-transform duration-300 lg:hidden overflow-y-auto',
           isOpen ? 'translate-x-0' : 'translate-x-full'
         )}
       >
@@ -236,7 +236,7 @@ export function Header() {
           isScrolled && 'shadow-md'
         )}
       >
-        <Container className="flex items-center justify-between h-16 lg:h-20">
+        <Container className="flex items-center justify-between h-14 sm:h-16 lg:h-20">
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-primary to-brand-accent flex items-center justify-center text-white font-bold text-lg">
               B

@@ -6,6 +6,8 @@ import siteConfig from "@config";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { BackToTop } from "@/components/ui/back-to-top";
+import { NavigationProgress } from "@/components/ui/navigation-progress";
+import { PageTransition } from "@/components/ui/page-transition";
 import { OrganizationJsonLd } from "@/components/seo/json-ld";
 import "./globals.css";
 
@@ -49,8 +51,11 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider messages={messages}>
           <OrganizationJsonLd companyName={siteConfig.company.name} />
+          <NavigationProgress />
           <Header />
-          <main className="min-h-screen">{children}</main>
+          <main id="main-content" className="min-h-screen">
+            <PageTransition>{children}</PageTransition>
+          </main>
           <Footer />
           <BackToTop />
         </NextIntlClientProvider>

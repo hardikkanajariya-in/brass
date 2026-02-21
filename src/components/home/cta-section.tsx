@@ -21,8 +21,8 @@ export function CtaSection() {
         <div className="absolute inset-0 bg-brand-secondary/85" />
       </div>
       <Container className="relative z-10 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{t('title')}</h2>
-        <p className="text-lg text-neutral-200 max-w-2xl mx-auto mb-8">{t('subtitle')}</p>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">{t('title')}</h2>
+        <p className="text-base sm:text-lg text-neutral-200 max-w-2xl mx-auto mb-6 sm:mb-8">{t('subtitle')}</p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button href="/request-quote" size="lg">
             {t('primaryButton')}

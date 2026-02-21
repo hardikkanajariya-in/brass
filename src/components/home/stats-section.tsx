@@ -16,7 +16,7 @@ export function StatsSection() {
 
   return (
     <Section className="bg-brand-secondary text-white">
-      <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-4 sm:gap-8 lg:grid-cols-4">
         {stats.map((stat) => (
           <StatCounter
             key={stat.label}

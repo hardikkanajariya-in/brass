@@ -47,7 +47,7 @@ export default async function InfrastructurePage() {
       {/* Plant Overview */}
       <Section>
         <SectionHeading title={t("plant.title")} subtitle={t("plant.subtitle")} centered />
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12 items-center">
           <div className="relative aspect-video rounded-xl overflow-hidden shadow-lg">
             <Image
               src={infra.plant.image}
@@ -130,7 +130,7 @@ export default async function InfrastructurePage() {
       {/* Quality Lab */}
       <Section className="bg-surface-secondary">
         <SectionHeading title={t("lab.title")} subtitle={t("lab.subtitle")} centered />
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12 items-center">
           <div>
             <h3 className="text-xl font-semibold text-brand-secondary mb-2">{infra.qualityLab.name}</h3>
             <p className="text-neutral-600 leading-relaxed mb-6">{infra.qualityLab.description}</p>

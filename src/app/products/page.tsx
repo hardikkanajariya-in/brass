@@ -17,6 +17,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function ProductsPage() {
   const t = await getTranslations("products");
+  const tc = await getTranslations("common");
   const categories = getCategories();
 
   const breadcrumbItems = [
@@ -41,7 +42,7 @@ export default async function ProductsPage() {
             <CategoryCard
               key={category.id}
               category={category}
-              productsLabel={t("material")}
+              productsLabel={tc("products")}
             />
           ))}
         </div>

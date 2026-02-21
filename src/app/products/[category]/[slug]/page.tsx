@@ -101,7 +101,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
           <span>Back to {category.name}</span>
         </Link>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Gallery */}
           <ProductGallery images={allImages} productName={product.name} />
 

@@ -12,7 +12,7 @@ export function Footer() {
     <footer className="bg-brand-secondary text-white">
       {/* Main footer */}
       <Container className="py-12 lg:py-16">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
