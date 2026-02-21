@@ -1,0 +1,104 @@
+[
+  {
+    "id": "svc-1",
+    "title": "Custom Manufacturing",
+    "slug": "custom-manufacturing",
+    "shortDescription": "Tailored brass component manufacturing to your exact specifications and drawings.",
+    "description": "Our custom manufacturing service transforms your designs into precision brass components. From concept drawings to production-ready parts, our engineering team works closely with you to optimize designs for manufacturability while maintaining your exact specifications. We handle orders from prototype quantities to high-volume production runs.",
+    "icon": "Wrench",
+    "features": [
+      "CAD/CAM design support",
+      "Prototype development",
+      "Low to high volume production",
+      "Material selection guidance",
+      "First article inspection",
+      "Production PPAP documentation"
+    ],
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=500&fit=crop"
+  },
+  {
+    "id": "svc-2",
+    "title": "CNC Precision Machining",
+    "slug": "cnc-precision-machining",
+    "shortDescription": "State-of-the-art CNC turning and milling for high-precision brass components.",
+    "description": "Our CNC precision machining facility houses the latest multi-axis turning centers and milling machines capable of producing brass components to tolerances of ±0.01mm. From simple turned parts to complex multi-feature components, our automated production lines ensure consistency and efficiency across production volumes.",
+    "icon": "Cog",
+    "features": [
+      "Multi-axis CNC turning",
+      "CNC milling and drilling",
+      "±0.01mm tolerances",
+      "Automated bar feeding",
+      "In-process gauging",
+      "24/7 production capability"
+    ],
+    "image": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=800&h=500&fit=crop"
+  },
+  {
+    "id": "svc-3",
+    "title": "Surface Finishing",
+    "slug": "surface-finishing",
+    "shortDescription": "Complete range of surface treatments including plating, polishing, and coating.",
+    "description": "Our in-house surface finishing department offers a comprehensive range of treatments to enhance the appearance, corrosion resistance, and functional properties of brass components. From bright nickel and chrome plating to specialized coatings, we deliver the finish your application demands.",
+    "icon": "Sparkles",
+    "features": [
+      "Nickel plating (bright & matte)",
+      "Chrome plating",
+      "Tin plating",
+      "Gold plating",
+      "Mechanical polishing",
+      "Passivation treatment"
+    ],
+    "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=500&fit=crop"
+  },
+  {
+    "id": "svc-4",
+    "title": "Quality Assurance",
+    "slug": "quality-assurance",
+    "shortDescription": "Comprehensive quality testing and certification for all brass components.",
+    "description": "Our ISO-certified quality laboratory provides comprehensive testing and inspection services using calibrated precision instruments. From incoming material verification to final inspection, every component is subjected to rigorous quality checks that guarantee conformance to your specifications and international standards.",
+    "icon": "Shield",
+    "features": [
+      "Dimensional inspection (CMM)",
+      "Material composition testing",
+      "Pressure testing",
+      "Thread gauging",
+      "Surface finish measurement",
+      "Full test certificates"
+    ],
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=500&fit=crop"
+  },
+  {
+    "id": "svc-5",
+    "title": "OEM & Private Label",
+    "slug": "oem-private-label",
+    "shortDescription": "White-label and OEM manufacturing with your branding and packaging.",
+    "description": "We offer complete OEM and private label manufacturing services, producing brass components under your brand name with your custom packaging. Our flexible production system accommodates your labeling, packaging, and documentation requirements while maintaining the same high quality standards.",
+    "icon": "Package",
+    "features": [
+      "Custom branding & marking",
+      "Private label packaging",
+      "Brand-specific documentation",
+      "Custom barcode/QR labeling",
+      "Retail-ready packaging",
+      "Drop-shipping capability"
+    ],
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=500&fit=crop"
+  },
+  {
+    "id": "svc-6",
+    "title": "Export & Logistics",
+    "slug": "export-logistics",
+    "shortDescription": "End-to-end export services with documentation and worldwide shipping.",
+    "description": "Our dedicated export team handles all aspects of international shipping, from documentation and customs clearance to freight forwarding and delivery tracking. With experience exporting to 30+ countries, we ensure smooth logistics and compliance with international trade regulations.",
+    "icon": "Globe",
+    "features": [
+      "Export documentation",
+      "Customs clearance support",
+      "Sea & air freight options",
+      "Container loading supervision",
+      "Shipment tracking",
+      "Trade compliance advisory"
+    ],
+    "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800&h=500&fit=crop"
+  }
+]

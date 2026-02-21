@@ -1,0 +1,141 @@
+{
+  "colors": {
+    "brand": {
+      "primary": "#B8860B",
+      "primaryLight": "#D4A843",
+      "primaryDark": "#8B6914",
+      "primaryFaded": "rgba(184,134,11,0.1)",
+      "secondary": "#1B2A4A",
+      "secondaryLight": "#2A3F6B",
+      "secondaryDark": "#0F1A2E"
+    },
+    "neutral": {
+      "50": "#FAF9F7",
+      "100": "#F5F3EF",
+      "200": "#E8E4DC",
+      "300": "#D4CFC4",
+      "400": "#B8B1A4",
+      "500": "#9C9484",
+      "600": "#7A7264",
+      "700": "#5C5548",
+      "800": "#3D382F",
+      "900": "#1F1C17",
+      "950": "#0F0E0B"
+    },
+    "semantic": {
+      "success": "#16A34A",
+      "successLight": "#DCFCE7",
+      "warning": "#CA8A04",
+      "warningLight": "#FEF9C3",
+      "error": "#DC2626",
+      "errorLight": "#FEE2E2",
+      "info": "#2563EB",
+      "infoLight": "#DBEAFE"
+    },
+    "surface": {
+      "default": "#FDFBF7",
+      "muted": "#F5F0E8",
+      "inverse": "#1B2A4A",
+      "card": "#FFFFFF",
+      "overlay": "rgba(15,26,46,0.6)"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "heading": "Poppins",
+      "body": "Poppins"
+    },
+    "fontSize": {
+      "xs": { "size": "0.75rem", "lineHeight": "1rem", "letterSpacing": "0.01em" },
+      "sm": { "size": "0.875rem", "lineHeight": "1.25rem", "letterSpacing": "0.005em" },
+      "base": { "size": "1rem", "lineHeight": "1.625rem", "letterSpacing": "0" },
+      "lg": { "size": "1.125rem", "lineHeight": "1.75rem", "letterSpacing": "-0.005em" },
+      "xl": { "size": "1.25rem", "lineHeight": "1.875rem", "letterSpacing": "-0.01em" },
+      "2xl": { "size": "1.5rem", "lineHeight": "2rem", "letterSpacing": "-0.015em" },
+      "3xl": { "size": "1.875rem", "lineHeight": "2.375rem", "letterSpacing": "-0.02em" },
+      "4xl": { "size": "2.25rem", "lineHeight": "2.75rem", "letterSpacing": "-0.025em" },
+      "5xl": { "size": "3rem", "lineHeight": "3.5rem", "letterSpacing": "-0.03em" },
+      "6xl": { "size": "3.75rem", "lineHeight": "4.25rem", "letterSpacing": "-0.035em" }
+    },
+    "fontWeight": {
+      "light": "300",
+      "normal": "400",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700"
+    }
+  },
+  "spacing": {
+    "section": "5rem",
+    "sectionMobile": "3rem",
+    "container": "1.25rem",
+    "containerLg": "2rem",
+    "cardPadding": "1.5rem",
+    "cardPaddingSm": "1rem",
+    "inputPadding": "0.75rem",
+    "inputPaddingX": "1rem",
+    "cardGap": "1.5rem",
+    "gridGap": "2rem",
+    "pageHeaderPadding": "4rem"
+  },
+  "radius": {
+    "none": "0",
+    "sm": "0.25rem",
+    "md": "0.5rem",
+    "lg": "0.75rem",
+    "xl": "1rem",
+    "2xl": "1.25rem",
+    "full": "9999px",
+    "card": "0.75rem",
+    "button": "0.5rem",
+    "input": "0.5rem",
+    "badge": "9999px",
+    "image": "0.75rem"
+  },
+  "shadow": {
+    "sm": "0 1px 2px 0 rgba(15,26,46,0.05)",
+    "md": "0 4px 6px -1px rgba(15,26,46,0.07), 0 2px 4px -2px rgba(15,26,46,0.05)",
+    "lg": "0 10px 15px -3px rgba(15,26,46,0.08), 0 4px 6px -4px rgba(15,26,46,0.04)",
+    "xl": "0 20px 25px -5px rgba(15,26,46,0.1), 0 8px 10px -6px rgba(15,26,46,0.05)",
+    "card": "0 4px 12px -2px rgba(15,26,46,0.06), 0 1px 3px rgba(15,26,46,0.04)",
+    "cardHover": "0 12px 24px -4px rgba(15,26,46,0.1), 0 4px 8px rgba(15,26,46,0.05)",
+    "dropdown": "0 10px 30px -5px rgba(15,26,46,0.12), 0 4px 10px rgba(15,26,46,0.06)",
+    "button": "0 2px 4px rgba(184,134,11,0.2)",
+    "buttonHover": "0 4px 12px rgba(184,134,11,0.3)",
+    "inner": "inset 0 2px 4px 0 rgba(15,26,46,0.05)"
+  },
+  "gradients": {
+    "hero": "linear-gradient(135deg, #0F1A2E 0%, #1B2A4A 50%, #2A3F6B 100%)",
+    "heroOverlay": "linear-gradient(180deg, rgba(15,26,46,0.7) 0%, rgba(27,42,74,0.5) 100%)",
+    "brass": "linear-gradient(135deg, #8B6914 0%, #B8860B 50%, #D4A843 100%)",
+    "brassSubtle": "linear-gradient(135deg, rgba(184,134,11,0.05) 0%, rgba(212,168,67,0.1) 100%)",
+    "dark": "linear-gradient(180deg, #0F1A2E 0%, #1B2A4A 100%)",
+    "surface": "linear-gradient(180deg, #FDFBF7 0%, #F5F0E8 100%)"
+  },
+  "animation": {
+    "duration": {
+      "fast": "150ms",
+      "normal": "300ms",
+      "slow": "500ms",
+      "slower": "700ms"
+    },
+    "easing": {
+      "default": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "in": "cubic-bezier(0.4, 0, 1, 1)",
+      "out": "cubic-bezier(0, 0, 0.2, 1)",
+      "bounce": "cubic-bezier(0.68, -0.55, 0.265, 1.55)"
+    }
+  },
+  "container": {
+    "maxWidth": "1280px",
+    "maxWidthWide": "1440px",
+    "maxWidthNarrow": "768px"
+  },
+  "breakpoints": {
+    "sm": "640px",
+    "md": "768px",
+    "lg": "1024px",
+    "xl": "1280px",
+    "2xl": "1536px"
+  }
+}

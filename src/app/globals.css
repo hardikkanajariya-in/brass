@@ -1,26 +1,166 @@
 @import "tailwindcss";
+@import "../styles/theme-vars.generated.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ============================================================
+   Tailwind v4 @theme — Maps CSS custom properties to utilities
+   ============================================================ */
+@theme {
+  /* Brand Colors */
+  --color-brand-primary: var(--colors-brand-primary);
+  --color-brand-primary-light: var(--colors-brand-primaryLight);
+  --color-brand-primary-dark: var(--colors-brand-primaryDark);
+  --color-brand-primary-faded: var(--colors-brand-primaryFaded);
+  --color-brand-secondary: var(--colors-brand-secondary);
+  --color-brand-secondary-light: var(--colors-brand-secondaryLight);
+  --color-brand-secondary-dark: var(--colors-brand-secondaryDark);
+
+  /* Neutral Scale */
+  --color-neutral-50: var(--colors-neutral-50);
+  --color-neutral-100: var(--colors-neutral-100);
+  --color-neutral-200: var(--colors-neutral-200);
+  --color-neutral-300: var(--colors-neutral-300);
+  --color-neutral-400: var(--colors-neutral-400);
+  --color-neutral-500: var(--colors-neutral-500);
+  --color-neutral-600: var(--colors-neutral-600);
+  --color-neutral-700: var(--colors-neutral-700);
+  --color-neutral-800: var(--colors-neutral-800);
+  --color-neutral-900: var(--colors-neutral-900);
+  --color-neutral-950: var(--colors-neutral-950);
+
+  /* Semantic Colors */
+  --color-success: var(--colors-semantic-success);
+  --color-success-light: var(--colors-semantic-successLight);
+  --color-warning: var(--colors-semantic-warning);
+  --color-warning-light: var(--colors-semantic-warningLight);
+  --color-error: var(--colors-semantic-error);
+  --color-error-light: var(--colors-semantic-errorLight);
+  --color-info: var(--colors-semantic-info);
+  --color-info-light: var(--colors-semantic-infoLight);
+
+  /* Surface Colors */
+  --color-surface: var(--colors-surface-default);
+  --color-surface-muted: var(--colors-surface-muted);
+  --color-surface-inverse: var(--colors-surface-inverse);
+  --color-surface-card: var(--colors-surface-card);
+  --color-surface-overlay: var(--colors-surface-overlay);
+
+  /* Typography - Font Family set via CSS variable from next/font */
+  --font-heading: var(--font-heading-family), sans-serif;
+  --font-body: var(--font-body-family), sans-serif;
+
+  /* Shadows */
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-card: var(--shadow-card);
+  --shadow-card-hover: var(--shadow-cardHover);
+  --shadow-dropdown: var(--shadow-dropdown);
+  --shadow-button: var(--shadow-button);
+  --shadow-button-hover: var(--shadow-buttonHover);
+  --shadow-inner: var(--shadow-inner);
+
+  /* Border Radius */
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --radius-2xl: var(--radius-2xl);
+  --radius-full: var(--radius-full);
+  --radius-card: var(--radius-card);
+  --radius-button: var(--radius-button);
+  --radius-input: var(--radius-input);
+  --radius-badge: var(--radius-badge);
+  --radius-image: var(--radius-image);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ============================================================
+   Global Base Styles — All token-driven, zero hardcoded values
+   ============================================================ */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--colors-surface-default);
+  color: var(--colors-neutral-800);
+  font-family: var(--font-body-family), sans-serif;
+}
+
+::selection {
+  background-color: var(--colors-brand-primary);
+  color: white;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--colors-brand-primary);
+  outline-offset: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--colors-neutral-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--colors-neutral-400);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--colors-brand-primary);
+}
+
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--colors-brand-primary);
+  color: white;
+  border-radius: var(--radius-md);
+  z-index: 100;
+  transition: top var(--animation-duration-fast) var(--animation-easing-default);
+}
+
+.skip-to-content:focus {
+  top: 1rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page-enter {
+  animation: fadeIn var(--animation-duration-normal) var(--animation-easing-out);
+}
+
+.brass-accent {
+  width: 60px;
+  height: 3px;
+  background: var(--gradients-brass);
+  border-radius: var(--radius-full);
+}
+
+.card-hover {
+  transition: transform var(--animation-duration-normal) var(--animation-easing-default),
+              box-shadow var(--animation-duration-normal) var(--animation-easing-default);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-cardHover);
+}
+
+.gradient-text-brass {
+  background: var(--gradients-brass);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }

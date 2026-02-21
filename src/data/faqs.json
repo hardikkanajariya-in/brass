@@ -1,0 +1,52 @@
+[
+  {
+    "id": "faq-1",
+    "question": "What types of brass components do you manufacture?",
+    "answer": "We manufacture a comprehensive range of brass components including fittings (elbows, tees, unions, couplings), valves (ball, gate, check, needle), connectors, fasteners (bolts, nuts, screws), threaded inserts, precision turned parts, plumbing components, and electrical components (cable glands, terminals). We produce over 500 different product types across 8 main categories."
+  },
+  {
+    "id": "faq-2",
+    "question": "What brass alloys do you work with?",
+    "answer": "We work with multiple brass alloys including CZ121 (CW614N) free-cutting brass for precision machining, CW617N forging brass for valve bodies and complex shapes, DZR (Dezincification Resistant) brass for potable water applications, CuZn37 for electrical contacts and stampings, and various other copper-zinc alloys per customer specifications."
+  },
+  {
+    "id": "faq-3",
+    "question": "What is your minimum order quantity (MOQ)?",
+    "answer": "Our minimum order quantity varies by product complexity and manufacturing method. For standard catalog items, MOQ starts from 500 pieces. For custom-machined components, MOQ is typically 1,000–5,000 pieces depending on complexity. We also offer prototype quantities for new product development at adjusted pricing."
+  },
+  {
+    "id": "faq-4",
+    "question": "What quality certifications do you hold?",
+    "answer": "We hold ISO 9001:2015 (Quality Management), ISO 14001:2015 (Environmental Management), CE Marking for European markets, and full RoHS and REACH compliance. Our quality lab operates under ISO 17025 guidelines with calibrated instruments from leading manufacturers."
+  },
+  {
+    "id": "faq-5",
+    "question": "What is your typical lead time for orders?",
+    "answer": "Standard lead time is 2–4 weeks from order confirmation for catalog products. Custom components typically require 4–6 weeks including tooling and first article approval. Rush orders can be accommodated on request with adjusted schedules. We recommend placing orders early for large volumes or complex custom parts."
+  },
+  {
+    "id": "faq-6",
+    "question": "Do you provide custom manufacturing services?",
+    "answer": "Yes, custom manufacturing is one of our core services. We can produce brass components to your exact drawings and specifications. Our engineering team provides design-for-manufacturing (DFM) feedback, material selection guidance, and prototype development. We handle everything from initial design review to production-scale manufacturing."
+  },
+  {
+    "id": "faq-7",
+    "question": "Which countries do you export to?",
+    "answer": "We export to over 30 countries worldwide including the United Kingdom, United States, Germany, France, Italy, UAE, Saudi Arabia, Australia, Canada, and many more across Europe, Americas, Middle East, Africa, and Asia-Pacific. Our export team handles all documentation, customs compliance, and logistics."
+  },
+  {
+    "id": "faq-8",
+    "question": "What surface finishing options are available?",
+    "answer": "We offer a comprehensive range of surface finishes including natural brass, bright nickel plating, matte nickel plating, chrome plating, tin plating, gold plating, mechanical polishing, and passivation treatment. Plating thickness and specifications can be customized to meet your application requirements."
+  },
+  {
+    "id": "faq-9",
+    "question": "How do you ensure product quality?",
+    "answer": "Quality is ensured through our comprehensive ISO 9001:2015 certified process: incoming material inspection with XRF spectrometry, first article inspection (FAI) for new parts, in-process SPC monitoring, thread verification with calibrated Go/No-Go gauges, surface finish measurement, and AQL-based final inspection. Full test certificates and material certificates are provided with every shipment."
+  },
+  {
+    "id": "faq-10",
+    "question": "Can you provide material and test certificates?",
+    "answer": "Yes, we provide comprehensive documentation with all shipments including material test certificates (EN 10204 3.1), dimensional inspection reports, first article inspection reports (FAIR), pressure test certificates (for valves and fittings), plating thickness reports, and RoHS/REACH compliance certificates. Additional documentation can be provided as per customer requirements."
+  }
+]

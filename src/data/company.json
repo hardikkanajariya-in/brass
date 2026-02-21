@@ -1,0 +1,98 @@
+{
+  "name": "BrassCraft Industries",
+  "tagline": "Precision Brass Components Since 1995",
+  "established": 1995,
+  "overview": "BrassCraft Industries is a premier manufacturer and exporter of high-quality precision brass components based in Jamnagar, Gujarat — the brass capital of India. With over 28 years of expertise, we serve global clients across plumbing, electrical, automotive, and industrial sectors with an unwavering commitment to quality, innovation, and customer satisfaction.",
+  "mission": "To deliver world-class brass components that exceed customer expectations through continuous innovation, precision manufacturing, and sustainable practices.",
+  "vision": "To be the most trusted and preferred brass components manufacturer globally, setting industry benchmarks for quality, reliability, and customer service.",
+  "coreValues": [
+    {
+      "id": "cv-1",
+      "title": "Quality Excellence",
+      "description": "Every component undergoes rigorous quality checks to meet international standards. Our ISO 9001:2015 certified processes ensure consistent quality across millions of parts.",
+      "icon": "Shield"
+    },
+    {
+      "id": "cv-2",
+      "title": "Innovation",
+      "description": "We continuously invest in the latest CNC technology and manufacturing processes to push the boundaries of brass component design and production efficiency.",
+      "icon": "Lightbulb"
+    },
+    {
+      "id": "cv-3",
+      "title": "Customer Focus",
+      "description": "Our clients are at the heart of everything we do. We offer custom solutions, competitive pricing, and responsive support to build lasting business relationships.",
+      "icon": "Users"
+    },
+    {
+      "id": "cv-4",
+      "title": "Sustainability",
+      "description": "We are committed to environmentally responsible manufacturing with extensive brass recycling programs, energy-efficient machinery, and waste reduction initiatives.",
+      "icon": "Leaf"
+    },
+    {
+      "id": "cv-5",
+      "title": "Integrity",
+      "description": "Transparency and honesty guide our business practices. We maintain open communication with clients, suppliers, and employees at every stage.",
+      "icon": "HandHeart"
+    }
+  ],
+  "milestones": [
+    { "year": 1995, "title": "Company Founded", "description": "BrassCraft Industries established in Jamnagar, Gujarat, with a small workshop and 5 employees." },
+    { "year": 1999, "title": "First Export Order", "description": "Secured our first international order, exporting brass fittings to the United Kingdom." },
+    { "year": 2003, "title": "ISO 9001 Certification", "description": "Achieved ISO 9001 quality management system certification, establishing our commitment to international standards." },
+    { "year": 2007, "title": "CNC Manufacturing", "description": "Invested in our first CNC turning centers, dramatically improving precision and production capacity." },
+    { "year": 2010, "title": "New Manufacturing Plant", "description": "Inaugurated a state-of-the-art 50,000 sq ft manufacturing facility with modern infrastructure." },
+    { "year": 2013, "title": "Global Expansion", "description": "Expanded export operations to 25+ countries across Europe, Americas, Middle East, and Asia-Pacific." },
+    { "year": 2016, "title": "ISO 14001 Certification", "description": "Achieved environmental management certification, formalizing our commitment to sustainable manufacturing." },
+    { "year": 2018, "title": "100 Employee Milestone", "description": "Team grew to over 100 skilled professionals, reflecting our steady business growth and market leadership." },
+    { "year": 2020, "title": "Digital Transformation", "description": "Implemented ERP systems and digital quality tracking for real-time production monitoring and traceability." },
+    { "year": 2023, "title": "R&D Center Launch", "description": "Opened a dedicated R&D center for product innovation, material research, and prototype development." }
+  ],
+  "team": [
+    {
+      "id": "tm-1",
+      "name": "Rajesh Patel",
+      "role": "Managing Director",
+      "bio": "With over 30 years of experience in the brass industry, Rajesh founded BrassCraft Industries and has led its growth from a small workshop to a globally recognized manufacturer.",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "tm-2",
+      "name": "Priya Sharma",
+      "role": "Head of Quality",
+      "bio": "Priya brings 15 years of quality management expertise, overseeing our ISO-certified quality systems and ensuring every product meets the highest international standards.",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "tm-3",
+      "name": "Amit Joshi",
+      "role": "Production Manager",
+      "bio": "Amit manages our entire production operations with 20 years of manufacturing experience, ensuring optimal efficiency and on-time delivery across all production lines.",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "tm-4",
+      "name": "Sneha Mehta",
+      "role": "Export Manager",
+      "bio": "Sneha oversees our global export operations spanning 30+ countries, maintaining strong client relationships and ensuring seamless international logistics.",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop"
+    }
+  ],
+  "stats": {
+    "yearsExperience": 28,
+    "productsManufactured": 500,
+    "countriesServed": 30,
+    "satisfiedClients": 1500,
+    "monthlyCapacity": "5M+",
+    "qualityCertifications": 5
+  },
+  "address": {
+    "street": "Plot No. 123, GIDC Industrial Estate",
+    "area": "Dared",
+    "city": "Jamnagar",
+    "state": "Gujarat",
+    "country": "India",
+    "postalCode": "361004"
+  }
+}

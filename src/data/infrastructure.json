@@ -1,0 +1,128 @@
+{
+  "plant": {
+    "name": "BrassCraft Manufacturing Facility",
+    "area": "50,000+ sq ft",
+    "location": "GIDC Industrial Estate, Jamnagar, Gujarat",
+    "description": "Our state-of-the-art manufacturing facility spans over 50,000 square feet in the heart of India's brass manufacturing hub. The plant is designed for efficient workflow from raw material storage through machining, finishing, quality inspection, and packaging. Climate-controlled areas house precision measurement equipment and sensitive processes.",
+    "highlights": [
+      "50,000+ sq ft covered area",
+      "Dedicated raw material storage",
+      "Climate-controlled quality lab",
+      "Automated production lines",
+      "Modern employee facilities",
+      "Solar-powered section"
+    ],
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&h=600&fit=crop"
+  },
+  "machines": [
+    {
+      "id": "mach-1",
+      "name": "Multi-Spindle CNC Turning Centers",
+      "count": 25,
+      "description": "High-speed multi-spindle CNC turning centers for mass production of precision brass components with automated bar feeding and in-process gauging.",
+      "brand": "Citizen / Star",
+      "image": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=600&h=400&fit=crop"
+    },
+    {
+      "id": "mach-2",
+      "name": "CNC Vertical Machining Centers",
+      "count": 8,
+      "description": "3-axis and 4-axis CNC milling machines for complex brass component machining, secondary operations, and fixture-based production.",
+      "brand": "Haas / Fanuc",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&h=400&fit=crop"
+    },
+    {
+      "id": "mach-3",
+      "name": "Swiss-Type CNC Lathes",
+      "count": 12,
+      "description": "High-precision Swiss-type sliding headstock lathes for small-diameter, tight-tolerance brass components used in electronics and instrumentation.",
+      "brand": "Tornos / Tsugami",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=400&fit=crop"
+    },
+    {
+      "id": "mach-4",
+      "name": "Hot Forging Press",
+      "count": 4,
+      "description": "Automated hot forging presses for producing brass valve bodies, fittings, and complex shapes from brass billets with near-net-shape accuracy.",
+      "brand": "National / Ajax",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?w=600&h=400&fit=crop"
+    },
+    {
+      "id": "mach-5",
+      "name": "Automatic Threading Machines",
+      "count": 15,
+      "description": "Dedicated thread cutting and rolling machines for BSP, NPT, metric, and custom thread profiles on brass components.",
+      "brand": "Landis / Fette",
+      "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&h=400&fit=crop"
+    },
+    {
+      "id": "mach-6",
+      "name": "Electroplating Lines",
+      "count": 3,
+      "description": "Automated electroplating lines for nickel, chrome, tin, and gold plating with precise thickness control and environmental compliance.",
+      "brand": "Custom Built",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop"
+    }
+  ],
+  "qualityLab": {
+    "name": "Quality Assurance Laboratory",
+    "description": "Our climate-controlled quality laboratory is equipped with the latest measuring and testing instruments to ensure every component meets exacting specifications. The lab operates under ISO 17025 guidelines with regular calibration of all instruments.",
+    "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop",
+    "equipment": [
+      {
+        "id": "eq-1",
+        "name": "Coordinate Measuring Machine (CMM)",
+        "description": "Zeiss CMM for 3D dimensional measurement of complex brass components with accuracy to 0.001mm.",
+        "brand": "Zeiss"
+      },
+      {
+        "id": "eq-2",
+        "name": "Optical Comparator",
+        "description": "Profile projection system for non-contact measurement and visual inspection of thread profiles and contours.",
+        "brand": "Mitutoyo"
+      },
+      {
+        "id": "eq-3",
+        "name": "Spectrometer (XRF)",
+        "description": "X-ray fluorescence spectrometer for rapid chemical composition analysis of brass alloys and incoming raw materials.",
+        "brand": "Bruker"
+      },
+      {
+        "id": "eq-4",
+        "name": "Hardness Tester",
+        "description": "Rockwell and Vickers hardness testing machines for material property verification of brass components.",
+        "brand": "Mitutoyo"
+      },
+      {
+        "id": "eq-5",
+        "name": "Pressure Testing Rig",
+        "description": "Hydrostatic pressure testing equipment for verification of brass valves and fittings to rated pressures up to 100 bar.",
+        "brand": "Custom Built"
+      },
+      {
+        "id": "eq-6",
+        "name": "Thread Gauges (Go/No-Go)",
+        "description": "Full range of calibrated BSP, NPT, metric, and UNC/UNF thread gauges for thread verification.",
+        "brand": "Yorkshire / Gagemaker"
+      },
+      {
+        "id": "eq-7",
+        "name": "Surface Roughness Tester",
+        "description": "Portable surface roughness measurement instrument for verification of machined surface finish quality.",
+        "brand": "Mitutoyo"
+      },
+      {
+        "id": "eq-8",
+        "name": "Salt Spray Chamber",
+        "description": "Accelerated corrosion testing chamber for evaluating the corrosion resistance of plated and coated brass components.",
+        "brand": "Ascott"
+      }
+    ]
+  },
+  "capacity": {
+    "monthlyProduction": "5,000,000+ components",
+    "operatingHours": "24/7 (3-shift operation)",
+    "leadTime": "2-4 weeks standard",
+    "rushOrders": "Available on request"
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "cert-1",
+    "name": "ISO 9001:2015",
+    "fullName": "Quality Management System — ISO 9001:2015",
+    "description": "Our quality management system is certified to ISO 9001:2015, ensuring consistent quality in design, manufacturing, and delivery of brass components. This certification demonstrates our commitment to meeting customer requirements and continuous improvement.",
+    "issuedBy": "Bureau Veritas",
+    "validUntil": "2026-12-31",
+    "icon": "ShieldCheck",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "cert-2",
+    "name": "ISO 14001:2015",
+    "fullName": "Environmental Management System — ISO 14001:2015",
+    "description": "Our environmental management practices are certified to ISO 14001:2015, reflecting our commitment to minimizing environmental impact through responsible manufacturing, waste management, and energy efficiency programs.",
+    "issuedBy": "Bureau Veritas",
+    "validUntil": "2026-12-31",
+    "icon": "Leaf",
+    "image": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "cert-3",
+    "name": "CE Marking",
+    "fullName": "CE Conformity — European Economic Area",
+    "description": "Our products bear the CE marking, confirming conformity with EU health, safety, and environmental protection standards. This enables unrestricted sale and distribution of our brass components throughout the European Economic Area.",
+    "issuedBy": "TÜV Rheinland",
+    "validUntil": "2027-06-30",
+    "icon": "BadgeCheck",
+    "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "cert-4",
+    "name": "RoHS Compliant",
+    "fullName": "Restriction of Hazardous Substances Directive",
+    "description": "Our brass components comply with the EU RoHS Directive (2011/65/EU), restricting the use of hazardous substances including lead, mercury, cadmium, and other regulated materials in electrical and electronic equipment.",
+    "issuedBy": "SGS",
+    "validUntil": "2026-09-30",
+    "icon": "CircleCheck",
+    "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "cert-5",
+    "name": "REACH Compliant",
+    "fullName": "Registration, Evaluation, Authorization and Restriction of Chemicals",
+    "description": "Full compliance with EU REACH Regulation (EC 1907/2006), ensuring our brass components and manufacturing processes meet the strictest chemical safety requirements for the European market.",
+    "issuedBy": "SGS",
+    "validUntil": "2027-03-31",
+    "icon": "FileCheck",
+    "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop"
+  }
+]

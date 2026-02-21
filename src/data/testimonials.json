@@ -1,0 +1,62 @@
+[
+  {
+    "id": "test-1",
+    "name": "James Harrison",
+    "company": "Harrison Plumbing Supplies",
+    "role": "Procurement Director",
+    "country": "United Kingdom",
+    "rating": 5,
+    "text": "We have been sourcing brass fittings from BrassCraft Industries for over 8 years. Their consistent quality, competitive pricing, and on-time delivery make them our preferred supplier. The technical support team is always responsive and helpful.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+  },
+  {
+    "id": "test-2",
+    "name": "Sarah Mitchell",
+    "company": "Pacific Valve Corporation",
+    "role": "VP Engineering",
+    "country": "United States",
+    "rating": 5,
+    "text": "BrassCraft's valve components are manufactured to extremely tight tolerances. Their CNC-machined parts consistently meet our stringent specifications, and their quality documentation is thorough and professional. Highly recommended for precision brass components.",
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop"
+  },
+  {
+    "id": "test-3",
+    "name": "Klaus Weber",
+    "company": "Weber Industrietechnik GmbH",
+    "role": "Technical Director",
+    "country": "Germany",
+    "rating": 5,
+    "text": "Die Qualität der Messingkomponenten von BrassCraft Industries entspricht deutschen Industriestandards. Their brass inserts and turned parts are excellent — precise, well-finished, and delivered with complete material certificates. A reliable partner for European manufacturers.",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop"
+  },
+  {
+    "id": "test-4",
+    "name": "Ahmed Al-Rashid",
+    "company": "Gulf Building Materials",
+    "role": "General Manager",
+    "country": "United Arab Emirates",
+    "rating": 5,
+    "text": "BrassCraft Industries has been our trusted supplier for brass plumbing components for 5 years. Their products withstand the demanding conditions of Middle East construction projects, and their export team handles all documentation professionally.",
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop"
+  },
+  {
+    "id": "test-5",
+    "name": "David Thompson",
+    "company": "Austech Engineering",
+    "role": "Managing Director",
+    "country": "Australia",
+    "rating": 4,
+    "text": "We source brass electrical components from BrassCraft for our switchgear manufacturing. The cable glands and terminal connectors meet all our requirements for quality and safety compliance. Good communication and reliable shipping schedules.",
+    "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop"
+  },
+  {
+    "id": "test-6",
+    "name": "Marie Dubois",
+    "company": "EuroConnect SARL",
+    "role": "Product Manager",
+    "country": "France",
+    "rating": 5,
+    "text": "Exceptional quality brass connectors and fittings. BrassCraft Industries has demonstrated remarkable consistency across multiple large orders. Their willingness to develop custom specifications sets them apart from other suppliers we have worked with.",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop"
+  }
+]

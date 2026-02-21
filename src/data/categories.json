@@ -1,0 +1,82 @@
+[
+  {
+    "id": "cat-fittings",
+    "slug": "brass-fittings",
+    "name": "Brass Fittings",
+    "description": "Premium brass pipe fittings including elbows, tees, couplings, unions, and reducers for plumbing, HVAC, and industrial applications.",
+    "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&q=80&auto=format",
+    "lucideIcon": "Wrench",
+    "productCount": 10,
+    "order": 1
+  },
+  {
+    "id": "cat-valves",
+    "slug": "brass-valves",
+    "name": "Brass Valves",
+    "description": "High-performance brass valves including ball, gate, check, globe, and needle valves for precise flow control.",
+    "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80&auto=format",
+    "lucideIcon": "Gauge",
+    "productCount": 8,
+    "order": 2
+  },
+  {
+    "id": "cat-connectors",
+    "slug": "brass-connectors",
+    "name": "Brass Connectors",
+    "description": "Versatile brass connectors including hose barbs, push-to-connect fittings, quick-connect couplings, and adapters.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80&auto=format",
+    "lucideIcon": "Cable",
+    "productCount": 7,
+    "order": 3
+  },
+  {
+    "id": "cat-fasteners",
+    "slug": "brass-fasteners",
+    "name": "Brass Fasteners",
+    "description": "Corrosion-resistant brass fasteners including hex bolts, machine screws, nuts, washers, and threaded rods.",
+    "image": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=600&q=80&auto=format",
+    "lucideIcon": "Bolt",
+    "productCount": 7,
+    "order": 4
+  },
+  {
+    "id": "cat-inserts",
+    "slug": "brass-inserts",
+    "name": "Brass Inserts",
+    "description": "Precision brass threaded inserts for plastic and wood applications — knurled, heat-set, ultrasonic, and expansion types.",
+    "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&q=80&auto=format",
+    "lucideIcon": "CircleDot",
+    "productCount": 6,
+    "order": 5
+  },
+  {
+    "id": "cat-turned-parts",
+    "slug": "brass-turned-parts",
+    "name": "Brass Turned Parts",
+    "description": "CNC precision-turned brass components including shafts, spacers, dowel pins, bushings, and contact pins.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=600&q=80&auto=format",
+    "lucideIcon": "Cog",
+    "productCount": 6,
+    "order": 6
+  },
+  {
+    "id": "cat-plumbing",
+    "slug": "brass-plumbing-components",
+    "name": "Brass Plumbing Components",
+    "description": "Brass plumbing components including compression valves, P-trap parts, floor drains, shower connectors, and tap spindles.",
+    "image": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=600&q=80&auto=format",
+    "lucideIcon": "Droplets",
+    "productCount": 6,
+    "order": 7
+  },
+  {
+    "id": "cat-electrical",
+    "slug": "brass-electrical-components",
+    "name": "Brass Electrical Components",
+    "description": "Brass electrical components including cable glands, terminal connectors, earth rod clamps, and switchgear contacts.",
+    "image": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=600&q=80&auto=format",
+    "lucideIcon": "Zap",
+    "productCount": 5,
+    "order": 8
+  }
+]
