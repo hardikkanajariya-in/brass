@@ -2,6 +2,7 @@
 
 import { useMemo } from 'react';
 import { cn } from '@/lib/utils';
+import { slugify } from '@/lib/markdown-utils';
 
 interface MarkdownRendererProps {
   content: string;
@@ -14,13 +15,7 @@ interface ContentBlock {
   id?: string;
 }
 
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .trim();
-}
+
 
 function parseInline(text: string): React.ReactNode[] {
   const nodes: React.ReactNode[] = [];
@@ -124,17 +119,4 @@ export function MarkdownRenderer({ content, className }: MarkdownRendererProps) 
   );
 }
 
-export function extractHeadings(content: string): { text: string; id: string }[] {
-  const headings: { text: string; id: string }[] = [];
-  const lines = content.split('\n\n');
 
-  for (const line of lines) {
-    const trimmed = line.trim();
-    if (trimmed.startsWith('## ') && !trimmed.startsWith('### ')) {
-      const text = trimmed.slice(3);
-      headings.push({ text, id: slugify(text) });
-    }
-  }
-
-  return headings;
-}
