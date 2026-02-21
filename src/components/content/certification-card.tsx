@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import { ShieldCheck } from 'lucide-react';
 import type { Certification } from '@/types/certification';
 
@@ -7,6 +8,7 @@ interface CertificationCardProps {
 }
 
 export function CertificationCard({ certification }: CertificationCardProps) {
+  const t = useTranslations('certifications');
   return (
     <div className="rounded-card bg-white p-6 shadow-card border border-neutral-100 text-center transition-all duration-300 hover:shadow-cardHover hover:-translate-y-1">
       <div className="relative mx-auto mb-4 h-40 w-full overflow-hidden rounded-lg">
@@ -26,7 +28,7 @@ export function CertificationCard({ certification }: CertificationCardProps) {
       <div className="text-xs text-neutral-400">
         <span>{certification.issuedBy}</span>
         <span className="mx-1">·</span>
-        <span>Valid until {certification.validUntil}</span>
+        <span>{t('validUntil')} {certification.validUntil}</span>
       </div>
     </div>
   );

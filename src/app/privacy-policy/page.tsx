@@ -15,7 +15,6 @@ export default async function PrivacyPolicyPage() {
   const t = await getTranslations("privacy");
 
   const breadcrumbItems = [
-    { label: "Home", href: "/" },
     { label: t("pageTitle"), href: "/privacy-policy" },
   ];
 

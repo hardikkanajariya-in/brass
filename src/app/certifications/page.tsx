@@ -20,7 +20,6 @@ export default async function CertificationsPage() {
   const certifications = getCertifications();
 
   const breadcrumbItems = [
-    { label: "Home", href: "/" },
     { label: t("pageTitle"), href: "/certifications" },
   ];
 

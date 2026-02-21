@@ -245,7 +245,8 @@
     "pressure": "Working Pressure",
     "temperature": "Temperature Range",
     "finish": "Surface Finish",
-    "productCount": "{count} Products"
+    "productCount": "{count} Products",
+    "backToCategory": "Back to {name}"
   },
 
   "services": {
@@ -271,7 +272,8 @@
     "equipment": {
       "title": "Testing Equipment",
       "subtitle": "Advanced laboratory equipment ensuring precision and compliance."
-    }
+    },
+    "ourCertifications": "Our Certifications"
   },
 
   "infrastructure": {
@@ -292,7 +294,11 @@
     "lab": {
       "title": "Quality Lab",
       "subtitle": "A fully equipped laboratory for comprehensive testing and inspection."
-    }
+    },
+    "monthlyProduction": "Monthly Production",
+    "operatingHours": "Operating Hours",
+    "standardLeadTime": "Standard Lead Time",
+    "rushOrders": "Rush Orders"
   },
 
   "certifications": {
@@ -310,7 +316,16 @@
     "byAuthor": "By {author}",
     "tags": "Tags",
     "recentPosts": "Recent Posts",
-    "backToBlog": "Back to Blog"
+    "backToBlog": "Back to Blog",
+    "tableOfContents": "Table of Contents",
+    "shareArticle": "Share this Article",
+    "aboutAuthor": "About the Author",
+    "authorBio": "Industry expert and technical writer at BrassCraft Industries, with years of experience in precision brass manufacturing.",
+    "relatedReading": "Continue Reading",
+    "minRead": "{time} min read",
+    "publishedDate": "Published",
+    "needComponents": "Need Brass Components?",
+    "componentsCta": "Get a custom quote for precision brass parts manufactured to your exact specifications."
   },
 
   "contact": {
@@ -338,7 +353,8 @@
     "info": {
       "title": "Get in Touch",
       "subtitle": "We would love to hear from you. Reach out through any of these channels."
-    }
+    },
+    "faqTitle": "Frequently Asked Questions"
   },
 
   "quote": {

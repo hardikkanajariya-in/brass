@@ -21,7 +21,6 @@ export default async function ProductsPage() {
   const categories = getCategories();
 
   const breadcrumbItems = [
-    { label: "Home", href: "/" },
     { label: t("pageTitle"), href: "/products" },
   ];
 

@@ -60,6 +60,14 @@
   --shadow-button-hover: var(--shadow-buttonHover);
   --shadow-inner: var(--shadow-inner);
 
+  /* Spacing */
+  --spacing-section: var(--spacing-section);
+  --spacing-section-mobile: var(--spacing-sectionMobile);
+  --spacing-page-header: var(--spacing-pageHeaderPadding);
+  --spacing-card-gap: var(--spacing-cardGap);
+  --spacing-grid-gap: var(--spacing-gridGap);
+  --spacing-card-padding: var(--spacing-cardPadding);
+
   /* Border Radius */
   --radius-sm: var(--radius-sm);
   --radius-md: var(--radius-md);

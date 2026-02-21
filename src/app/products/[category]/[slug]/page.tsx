@@ -53,6 +53,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 export default async function ProductDetailPage({ params }: ProductPageProps) {
   const { category: catSlug, slug } = await params;
   const t = await getTranslations("products");
+  const tc = await getTranslations("common");
   const product = getProductBySlug(slug);
   const category = getCategoryBySlug(catSlug);
 
@@ -65,7 +66,6 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
   const allImages = [product.image, ...product.gallery];
 
   const breadcrumbItems = [
-    { label: "Home", href: "/" },
     { label: t("pageTitle"), href: "/products" },
     { label: category.name, href: `/products/${category.slug}` },
     { label: product.name, href: `/products/${category.slug}/${product.slug}` },
@@ -98,7 +98,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
           className="inline-flex items-center gap-2 text-brand-primary hover:text-brand-primaryDark transition-colors mb-8"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>Back to {category.name}</span>
+          <span>{t("backToCategory", { name: category.name })}</span>
         </Link>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
@@ -109,8 +109,8 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
           <div className="space-y-6">
             <div>
               <div className="flex gap-2 mb-3">
-                {product.isFeatured && <Badge variant="primary">Featured</Badge>}
-                {product.isNew && <Badge variant="success">New</Badge>}
+                {product.isFeatured && <Badge variant="primary">{tc("featured")}</Badge>}
+                {product.isNew && <Badge variant="success">{tc("new")}</Badge>}
               </div>
               <h1 className="text-3xl font-bold text-brand-secondary mb-3">
                 {product.name}
@@ -171,7 +171,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
       </Section>
 
       {/* Full Specifications */}
-      <Section className="bg-surface-secondary">
+      <Section className="bg-neutral-50">
         <SectionHeading title={t("specsTitle")} />
         <div className="max-w-2xl">
           <ProductSpecs specifications={product.specifications} />
@@ -181,7 +181,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
       {/* Related Products */}
       {relatedProducts.length > 0 && (
         <Section>
-          <SectionHeading title="Related Products" centered />
+          <SectionHeading title={tc("relatedProducts")} centered />
           <ProductGrid
             products={relatedProducts}
             categorySlug={category.slug}

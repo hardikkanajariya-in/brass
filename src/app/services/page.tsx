@@ -22,7 +22,6 @@ export default async function ServicesPage() {
   const services = getServices();
 
   const breadcrumbItems = [
-    { label: "Home", href: "/" },
     { label: t("pageTitle"), href: "/services" },
   ];
 

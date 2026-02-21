@@ -15,7 +15,7 @@ import type { NavigationItem } from '@/types/common';
 function TopBar() {
   const t = useTranslations('common');
   return (
-    <div className="hidden bg-brand-secondary text-white text-sm lg:block">
+    <div className="hidden bg-brand-secondary text-white text-sm xl:block">
       <Container className="flex items-center justify-between py-2">
         <div className="flex items-center gap-6">
           <a href={`mailto:${siteConfig.contact.email}`} className="flex items-center gap-2 hover:text-brand-primary transition-colors">
@@ -57,7 +57,7 @@ function DesktopNav({ items }: { items: NavigationItem[] }) {
   }, []);
 
   return (
-    <nav className="hidden lg:flex items-center gap-1" aria-label="Main navigation">
+    <nav className="hidden xl:flex items-center gap-0.5" aria-label="Main navigation">
       {items.map((item) => {
         const isActive = pathname === item.href || (item.href !== '/' && pathname.startsWith(item.href));
         const hasChildren = item.children && item.children.length > 0;
@@ -73,12 +73,12 @@ function DesktopNav({ items }: { items: NavigationItem[] }) {
               <Link
                 href={item.href}
                 className={cn(
-                  'flex items-center gap-1 px-4 py-2 text-sm font-medium rounded-md transition-colors',
+                  'flex items-center gap-1 px-2.5 py-2 text-[13px] font-medium rounded-md transition-colors whitespace-nowrap',
                   isActive ? 'text-brand-primary' : 'text-neutral-700 hover:text-brand-primary'
                 )}
               >
                 {t(item.labelKey)}
-                <ChevronDown className={cn('h-4 w-4 transition-transform', openDropdown === item.labelKey && 'rotate-180')} />
+                <ChevronDown className={cn('h-3.5 w-3.5 transition-transform', openDropdown === item.labelKey && 'rotate-180')} />
               </Link>
               <div
                 className={cn(
@@ -108,7 +108,7 @@ function DesktopNav({ items }: { items: NavigationItem[] }) {
             key={item.labelKey}
             href={item.href}
             className={cn(
-              'px-4 py-2 text-sm font-medium rounded-md transition-colors',
+              'px-2.5 py-2 text-[13px] font-medium rounded-md transition-colors whitespace-nowrap',
               isActive ? 'text-brand-primary' : 'text-neutral-700 hover:text-brand-primary'
             )}
           >
@@ -143,14 +143,14 @@ function MobileNav({ items, isOpen, onClose }: { items: NavigationItem[]; isOpen
     <>
       <div
         className={cn(
-          'fixed inset-0 z-40 bg-black/50 transition-opacity lg:hidden',
+          'fixed inset-0 z-40 bg-black/50 transition-opacity xl:hidden',
           isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
         )}
         onClick={onClose}
       />
       <div
         className={cn(
-          'fixed inset-y-0 right-0 z-50 w-[280px] sm:w-[320px] bg-white shadow-2xl transition-transform duration-300 lg:hidden overflow-y-auto',
+          'fixed inset-y-0 right-0 z-50 w-[280px] sm:w-[320px] bg-white shadow-2xl transition-transform duration-300 xl:hidden overflow-y-auto',
           isOpen ? 'translate-x-0' : 'translate-x-full'
         )}
       >
@@ -236,7 +236,7 @@ export function Header() {
           isScrolled && 'shadow-md'
         )}
       >
-        <Container className="flex items-center justify-between h-14 sm:h-16 lg:h-20">
+        <Container className="flex items-center justify-between h-14 sm:h-16 xl:h-20">
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-primary to-brand-accent flex items-center justify-center text-white font-bold text-lg">
               B
@@ -254,12 +254,12 @@ export function Header() {
           <DesktopNav items={siteConfig.navigation} />
 
           <div className="flex items-center gap-3">
-            <Button href="/request-quote" size="sm" className="hidden lg:inline-flex">
+            <Button href="/request-quote" size="sm" className="hidden xl:inline-flex text-[13px] !px-4 !py-2">
               {t('requestQuote')}
             </Button>
             <button
               onClick={() => setMobileOpen(true)}
-              className="p-2 rounded-md hover:bg-neutral-100 lg:hidden cursor-pointer"
+              className="p-2 rounded-md hover:bg-neutral-100 xl:hidden cursor-pointer"
               aria-label="Open menu"
             >
               <Menu className="h-6 w-6" />

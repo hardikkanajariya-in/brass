@@ -21,7 +21,6 @@ export default async function BlogPage() {
   const posts = getBlogPosts();
 
   const breadcrumbItems = [
-    { label: "Home", href: "/" },
     { label: t("pageTitle"), href: "/blog" },
   ];
 

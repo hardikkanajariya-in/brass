@@ -21,34 +21,34 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function ContactPage() {
   const t = await getTranslations("contact");
+  const tc = await getTranslations("common");
   const faqs = getFaqs();
 
   const breadcrumbItems = [
-    { label: "Home", href: "/" },
     { label: t("pageTitle"), href: "/contact" },
   ];
 
   const contactInfo = [
     {
       icon: Mail,
-      label: "Email",
+      label: tc("email"),
       value: siteConfig.contact.email,
       href: `mailto:${siteConfig.contact.email}`,
     },
     {
       icon: Phone,
-      label: "Phone",
+      label: tc("phone"),
       value: siteConfig.contact.phone,
       href: `tel:${siteConfig.contact.phone}`,
     },
     {
       icon: MapPin,
-      label: "Address",
+      label: tc("address"),
       value: `${siteConfig.contact.address.street}, ${siteConfig.contact.address.city}, ${siteConfig.contact.address.state} ${siteConfig.contact.address.postalCode}, ${siteConfig.contact.address.country}`,
     },
     {
       icon: Clock,
-      label: "Working Hours",
+      label: tc("workingHours"),
       value: siteConfig.contact.workingHours,
     },
   ];
@@ -105,8 +105,8 @@ export default async function ContactPage() {
       </Section>
 
       {/* Map */}
-      <Section className="bg-surface-secondary py-0">
-        <div className="relative w-full h-80">
+      <section className="bg-neutral-50">
+        <div className="relative w-full h-60 sm:h-72 md:h-80 lg:h-96">
           <iframe
             src={siteConfig.contact.mapEmbedUrl}
             className="absolute inset-0 w-full h-full border-0"
@@ -115,11 +115,11 @@ export default async function ContactPage() {
             title="BrassCraft Industries Location"
           />
         </div>
-      </Section>
+      </section>
 
       {/* FAQs */}
       <Section>
-        <SectionHeading title="Frequently Asked Questions" centered />
+        <SectionHeading title={t("faqTitle")} centered />
         <div className="max-w-3xl mx-auto">
           <FaqAccordion faqs={faqs} />
         </div>

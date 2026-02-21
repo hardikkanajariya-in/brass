@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import { Calendar, Clock } from 'lucide-react';
 import { formatDate } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
@@ -11,6 +12,7 @@ interface BlogCardProps {
 }
 
 export function BlogCard({ post, readMoreLabel }: BlogCardProps) {
+  const t = useTranslations('blog');
   return (
     <article className="group rounded-card bg-white overflow-hidden shadow-card border border-neutral-100 transition-all duration-300 hover:shadow-cardHover hover:-translate-y-1">
       <Link href={`/blog/${post.slug}`} className="block">
@@ -35,7 +37,7 @@ export function BlogCard({ post, readMoreLabel }: BlogCardProps) {
           </span>
           <span className="flex items-center gap-1">
             <Clock className="h-3.5 w-3.5" />
-            {post.readTime} min
+            {t('minRead', { time: post.readTime })}
           </span>
         </div>
         <Link href={`/blog/${post.slug}`}>

@@ -9,7 +9,7 @@ export function CtaSection() {
   const t = useTranslations('home.cta');
 
   return (
-    <section className="relative py-20 overflow-hidden">
+    <section className="relative py-12 sm:py-16 md:py-20 lg:py-24 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
           src={siteConfig.images.ctaBackground}

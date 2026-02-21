@@ -23,18 +23,18 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function AboutPage() {
   const t = await getTranslations("about");
+  const statsT = await getTranslations("home.stats");
   const company = getCompany();
 
   const breadcrumbItems = [
-    { label: "Home", href: "/" },
     { label: t("pageTitle"), href: "/about" },
   ];
 
   const stats = [
-    { value: company.stats.yearsExperience, suffix: "+", label: "Years Experience" },
-    { value: company.stats.productsManufactured, suffix: "+", label: "Products" },
-    { value: company.stats.countriesServed, suffix: "+", label: "Countries Served" },
-    { value: company.stats.satisfiedClients, suffix: "+", label: "Satisfied Clients" },
+    { value: company.stats.yearsExperience, suffix: "+", label: statsT("experience") },
+    { value: company.stats.productsManufactured, suffix: "+", label: statsT("products") },
+    { value: company.stats.countriesServed, suffix: "+", label: statsT("countries") },
+    { value: company.stats.satisfiedClients, suffix: "+", label: statsT("clients") },
   ];
 
   return (
@@ -52,7 +52,7 @@ export default async function AboutPage() {
       <Section>
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12 items-center">
           <div>
-            <SectionHeading title={t("overview.title")} />
+            <SectionHeading title={t("overview.title")} centered={false} />
             <p className="text-neutral-600 leading-relaxed mb-4">
               {t("overview.description")}
             </p>
@@ -73,7 +73,7 @@ export default async function AboutPage() {
       </Section>
 
       {/* Mission & Vision */}
-      <Section className="bg-surface-secondary">
+      <Section className="bg-neutral-50">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white rounded-xl p-8 shadow-sm border border-neutral-100">
             <div className="w-12 h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center mb-4">
@@ -146,7 +146,7 @@ export default async function AboutPage() {
       </Section>
 
       {/* Team */}
-      <Section className="bg-surface-secondary">
+      <Section className="bg-neutral-50">
         <SectionHeading
           title={t("team.title")}
           subtitle={t("team.subtitle")}

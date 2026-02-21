@@ -22,15 +22,14 @@ export default async function InfrastructurePage() {
   const infra = getInfrastructure();
 
   const breadcrumbItems = [
-    { label: "Home", href: "/" },
     { label: t("pageTitle"), href: "/infrastructure" },
   ];
 
   const capacityItems = [
-    { icon: Factory, label: "Monthly Production", value: infra.capacity.monthlyProduction },
-    { icon: Clock, label: "Operating Hours", value: infra.capacity.operatingHours },
-    { icon: Gauge, label: "Standard Lead Time", value: infra.capacity.leadTime },
-    { icon: Zap, label: "Rush Orders", value: infra.capacity.rushOrders },
+    { icon: Factory, label: t("monthlyProduction"), value: infra.capacity.monthlyProduction },
+    { icon: Clock, label: t("operatingHours"), value: infra.capacity.operatingHours },
+    { icon: Gauge, label: t("standardLeadTime"), value: infra.capacity.leadTime },
+    { icon: Zap, label: t("rushOrders"), value: infra.capacity.rushOrders },
   ];
 
   return (
@@ -81,7 +80,7 @@ export default async function InfrastructurePage() {
       </Section>
 
       {/* Machinery */}
-      <Section className="bg-surface-secondary">
+      <Section className="bg-neutral-50">
         <SectionHeading title={t("machinery.title")} subtitle={t("machinery.subtitle")} centered />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {infra.machines.map((machine) => (
@@ -128,7 +127,7 @@ export default async function InfrastructurePage() {
       </Section>
 
       {/* Quality Lab */}
-      <Section className="bg-surface-secondary">
+      <Section className="bg-neutral-50">
         <SectionHeading title={t("lab.title")} subtitle={t("lab.subtitle")} centered />
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12 items-center">
           <div>

@@ -26,7 +26,6 @@ export default async function QualityPage() {
   const certifications = getCertifications();
 
   const breadcrumbItems = [
-    { label: "Home", href: "/" },
     { label: t("pageTitle"), href: "/quality" },
   ];
 
@@ -82,7 +81,7 @@ export default async function QualityPage() {
       </Section>
 
       {/* Testing Equipment */}
-      <Section className="bg-surface-secondary">
+      <Section className="bg-neutral-50">
         <SectionHeading
           title={t("equipment.title")}
           subtitle={t("equipment.subtitle")}
@@ -106,7 +105,7 @@ export default async function QualityPage() {
       {siteConfig.features.showCertifications && (
         <Section>
           <SectionHeading
-            title="Our Certifications"
+            title={t("ourCertifications")}
             centered
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

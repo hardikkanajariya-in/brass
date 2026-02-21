@@ -18,7 +18,6 @@ export default async function RequestQuotePage() {
   const t = await getTranslations("quote");
 
   const breadcrumbItems = [
-    { label: "Home", href: "/" },
     { label: t("pageTitle"), href: "/request-quote" },
   ];
 

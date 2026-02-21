@@ -39,7 +39,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const products = getProductsByCategory(category.id);
 
   const breadcrumbItems = [
-    { label: "Home", href: "/" },
     { label: t("pageTitle"), href: "/products" },
     { label: category.name, href: `/products/${category.slug}` },
   ];
